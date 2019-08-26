@@ -273,3 +273,10 @@ h6
 @media all and (max-width:1050px) and (min-width:800px) 
 {
 }
+
+
+
+.how-to-box:hover .icon span {
+    background: #c4161c none repeat scroll 0 0;
+    color: #fff;
+}
