@@ -254,6 +254,35 @@ h6
 	width: 100%;
 }
 
+<!-- css for 2 background color -->
+.class
+background-color: #1b1b1b;
+padding: 40px;
+min-height: 1px;
+margin-bottom: 0;
+border-radius: 0;
+position: relative;
+border: none;
+
+.class:before
+background-color: #222224;
+content: "";
+position: absolute;
+left: 38%;
+right: 0;
+top: 0;
+bottom: 0;
+display: inline-block;
+border-left: 1px solid #2c2c2c;
+<!-- css for 2 background color -->
+
+
+
+
+
+
+
+
 /* ................. hide and seek media querry ......................*/
 /* for mobile */
 @media all and (max-width: 1000px) and (min-width: 200px) 
