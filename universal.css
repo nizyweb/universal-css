@@ -310,3 +310,49 @@ border-left: 1px solid #2c2c2c;
     background: #c4161c none repeat scroll 0 0;
     color: #fff;
 }
+
+
+
+.border-img {
+    position: relative;
+    display: inline-block;
+}
+.border-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,70,111,.3);
+    border-radius: 50px;
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+.border-img::after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    bottom: -30px;
+    left: -30px;
+    background: rgba(76,201,255,.1);
+    border-radius: 50px;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    z-index: 1;
+}
+.border-img img {
+    position: relative;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+
+
+background-image: linear-gradient(to bottom, rgba(220, 36, 48, 0.9), rgba(123, 67, 151, 0.9)), url(../images/content/breadcrumb/university.jpg);
+
+
