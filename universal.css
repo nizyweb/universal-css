@@ -351,6 +351,27 @@ border-left: 1px solid #2c2c2c;
     border-radius: 50px;
 }
 
+.analysis-text {
+    position: relative;
+    z-index: 1;
+    margin-top: 25px;
+}
+.analysis-text ul {
+    padding: 0;
+    margin: 20px 0 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.analysis-text ul li {
+    position: relative;
+    color: #828893;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
 
 background-image: linear-gradient(to bottom, rgba(220, 36, 48, 0.9), rgba(123, 67, 151, 0.9)), url(../images/content/breadcrumb/university.jpg);
