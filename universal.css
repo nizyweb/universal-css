@@ -373,6 +373,44 @@ border-left: 1px solid #2c2c2c;
     max-width: 50%;
 }
 
+.column_layout
+{
+    width: 100%;
+    margin: 10px auto 0;
+    line-height: 1.65;
+    padding: 20px 20px;
+    display: flex;
+}
+.main_column
+{
+    flex: 1;
+    order: 2;
+}
+.sidebar_1
+{
+    flex: 1;
+    order: 1;
+}
+.sidebar_2
+{
+    flex: 1;
+    order: 3;
+}
+.call_out
+{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    border: 4px dashed #2b2b2b;
+    border-radius: 16px;
+    box-shadow: inset 0px 5px 10px #000;
+}
+
+.call_out:nth-child(1){background: #f4b400}
+.call_out:nth-child(2){background: #4285f4}
+.call_out:nth-child(3){background: #db4437}
+.call_out:last-child{margin-right: 0;}
+
 
 background-image: linear-gradient(to bottom, rgba(220, 36, 48, 0.9), rgba(123, 67, 151, 0.9)), url(../images/content/breadcrumb/university.jpg);
 
